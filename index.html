@@ -28,7 +28,8 @@
 		    }).addTo(map);
 
 		var xhr = new XMLHttpRequest();
-		xhr.open("GET", "https://locationapi.localtunnel.me/locations", false);
+		//xhr.open("GET", "https://locationapi.localtunnel.me/locations", false);
+		xhr.open("GET", "http://zhujia.dtdns.net:8080/locations", false);
 		xhr.send();
 
 		if (xhr.status == 200) {
